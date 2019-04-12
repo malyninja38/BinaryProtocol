@@ -1,0 +1,9 @@
+000 - uzyskanie identyfikatora sesji
+001 - 
+010 - zaprzeczenie sukcesiku
+011 - sukcesik dla ciebie
+100 - rozpoczecie gry
+101 - wygral ten drugi
+110 - zakoncz gre, zamknij polaczenia
+111 - wyslij odpowiedz
+
