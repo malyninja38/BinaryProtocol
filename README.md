@@ -12,7 +12,7 @@ Implementacja protokołu komunikacyjnego, aplikacji klienckiej oraz aplikacji se
 Komunikacja pomiędzy dwoma klientami odbywa się poprzez serwer, w oparciu o połączenowy protokół komunikacyjny.
 Wszystkie dane przesyłane są w postaci binarnej.
 
-Klient nawiązuje połączenie z zerwerem i uzyskuje identyfikator sesji wygenerowany przez serwer. 
+Klient nawiązuje połączenie z serwerem i uzyskuje identyfikator sesji wygenerowany przez serwer. 
 Ten z kolei wyznacza maksymalny czas trwania rozgrywki, a następnie losuje liczbę, którą klienci muszą odgadnąc.
 Następnie co 15 sekund wysyła komunikaty o tym, ile czasu jeszcze pozostało. Informuje również klientów, czy wpisana przez nich liczba jest za duża lub za mała.
 
